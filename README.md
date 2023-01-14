@@ -16,9 +16,12 @@ tration of the user
 * party: the political party the user "follows" (right, left, middle
 or neutral)
 
+
 ## **The Process**
 * Compose 4 first days (graphs) into one.
 * Get giant component.
-* Implement 5 algorithms to find communitites (Louvain, Label Propagation, Balanced Link Density-based Label Propagation, Fast Greedy, Deep Nonlinear Reconstruction).
+* Implement *5 algorithms to find communitites* **(Louvain, Label Propagation, Balanced Link Density-based Label Propagation, Fast Greedy, Deep Nonlinear Reconstruction)**.
 * Find modularity of each one of them.
-* Implement 3 algorithms to investigate the three largest communities (Louvain, Balanced Link Density-based Label Propagation, Deep Nonlinear Reconstruction) based on finding percentages of labels (parties) in each community, average clustering coefficient, density, diameter and average path length.
+* Implement *3 algorithms to investigate the three largest communities* **(Louvain, Balanced Link Density-based Label Propagation, Deep Nonlinear Reconstruction)** *based on finding percentages of labels (parties) in each community, average clustering coefficient, density, diameter and average path length*.
+
+* As a main tool for the *visualization* of our graphs we used *Gephi*.
